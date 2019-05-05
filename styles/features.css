@@ -300,7 +300,7 @@ body{
 .owl-features .owl-stage{
     display: flex;
     align-items: center;
-    left: -240px;
+   /* left: -250px;*/
 } 
 
 
@@ -316,12 +316,10 @@ body{
 
 
 .owl-features .owl-dots{
-    flex-direction: column;
+    flex-direction: row;
     display: flex;
-    width: 20px;
-    position: absolute;
-    right: 20px;
-    top: 50%;
+    width: 100%;
+    justify-content: center;
 }
 
 .owl-features .owl-dots .owl-dot{
@@ -344,30 +342,32 @@ body{
     opacity: 1;
 }
 
-.owl-features .owl-nav button.owl-prev{
+/*.owl-features .owl-nav button.owl-prev{
     width: 25px;
     height: 25px;
     border: 1px solid white;
     border-radius: 50%;
     outline: 0;
-}
+}*/
 
 .owl-features .owl-nav button.owl-prev span{
     color: white;
     vertical-align: text-bottom;
+    font-size: 20px;
 }
 
-.owl-features .owl-nav button.owl-next{
+/*.owl-features .owl-nav button.owl-next{
     width: 25px;
     height: 25px;
     border: 1px solid white;
     border-radius: 50%;
     outline: 0;
-}
+}*/
 
 .owl-features .owl-nav button.owl-next span{
     color: white;
     vertical-align: text-bottom;
+    font-size: 20px;
 }
 
 .owl-features .owl-item img{
