@@ -443,7 +443,7 @@ body{
     margin: 0;
 }
 
-.owl-users  .owl-nav{
+/*.owl-users  .owl-nav{
     width: 100%;
     position: absolute;
     top: 40%;
@@ -457,18 +457,41 @@ body{
 .owl-users .owl-nav button.owl-next{
     position: absolute;
     right: 50px;
-}
+} */
 
 .owl-users .owl-nav button.owl-prev span{
-    font-size: 40px;
-    font-weight: 900;
-    opacity: 0.3;
+    vertical-align: text-bottom;
+    font-size: 20px;
+    opacity: 0.5;
 }
 
 .owl-users .owl-nav button.owl-next span{
-    font-size: 40px;
-    font-weight: 900;
-    opacity: 0.3;
+    vertical-align: text-bottom;
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+.owl-users .owl-dots{
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.owl-users .owl-dots .owl-dot{
+    align-self: center;
+}
+
+.owl-users .owl-dots .owl-dot span{
+    width: 5px;
+    height: 5px;
+    margin: 5px 5px;
+}
+
+.owl-users .owl-dots .owl-dot.active span{
+    background: #869791;
+    box-shadow: 0px 0px 0px 1px #869791;
+    opacity: 1;
 }
 /***************end of users*****************/
 

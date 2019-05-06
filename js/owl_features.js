@@ -56,7 +56,7 @@ $(document).ready(function(){
         margin:200,
         nav:true,
         items:1,
-        dots:false,
+        dots:true,
         responsive:{
           0:{
             center: true,
